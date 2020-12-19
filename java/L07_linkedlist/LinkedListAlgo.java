@@ -109,6 +109,12 @@ public class LinkedListAlgo {
         return soldier.next;   
     }
 
+  public class ListNode {
+ 	     int val;
+ 	     ListNode next;
+ 	     ListNode(int x) { val = x; }
+ 	 }
+
 
   // 删除倒数第K个结点
   public static Node deleteLastKth(Node list, int k) {

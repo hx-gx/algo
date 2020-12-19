@@ -6,6 +6,18 @@ package L28_sorts;
 public class HeapSort {
 
     /**
+     * HX . temp
+     * @param arr
+     * @param i
+     * @param k
+     */
+    public static void swap(int[] arr, int i, int k){
+        int temp = arr[i];
+        arr[i] = arr[k];
+        arr[k] = temp;
+    }
+
+    /**
      * 排序
      * <p>
      * 堆元素是从数组下标0开始
