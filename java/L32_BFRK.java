@@ -1,4 +1,5 @@
-public static int bF(String a,String b) {
+public class L32_BFRK{
+	public static int bF(String a,String b) {
 		int m=a.length(),n=b.length(),k;
 		char[] a1=a.toCharArray();
 		char[] b1=b.toCharArray();
@@ -17,7 +18,9 @@ public static int bF(String a,String b) {
 		}
 		return -1;
 	}
-public static int rK(String a,String b) {
+
+
+	public static int rK(String a,String b) {
 		int m=a.length(),n=b.length(),s,j;
 		int[] hash=new int[m-n+1];
 		int[] table=new int[26];
@@ -47,3 +50,7 @@ public static int rK(String a,String b) {
 		}
 		return -1;
 	}
+
+}
+
+
